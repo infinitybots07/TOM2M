@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from plugins.helper_functions.engine import ask_ai
+from plugins.helper.engine import ask_ai
 
 
 @Client.on_message(filters.command('openai'))
