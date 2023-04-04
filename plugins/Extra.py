@@ -3,6 +3,7 @@ import random
 import asyncio
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters, enums
+from info import DLT_TIME
 from Script import script
 
 CMD = ["/", "."]
@@ -11,22 +12,10 @@ CMD = ["/", "."]
 async def check_alive(_, message):
     myrr = await message.reply_sticker("CAACAgIAAxkBAAEIK1lkFAN0BjHbiwRY08v-7EFYRqI2fQACKRgAAhP_2UkVxgiD_rlLGS8E")
     andi = await message.reply_text("ʜᴇʏ ʙᴜᴅᴅʏ ɪ ᴀᴍ ᴀʟɪᴠᴇ 💃\n\nᴄʟɪᴄᴋ /start ꜰᴏʀ ᴍᴏʀᴇ​ 😻")
-    await asyncio.sleep(200)
+    await asyncio.sleep(DLT_TIME)
     await myrr.delete()
     await andi.delete()
     await message.delete()
-    
-@Client.on_message(filters.command("extra", CMD))
-async def extra(_, message):
-    buttons = [[
-            InlineKeyboardButton('✘ ᴄʟᴏsᴇ ✘', callback_data='close_data')
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_text(
-            text=(script.EXTRA_TXT),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )    
     
 @Client.on_message(filters.command("tutorial", CMD))
 async def tutorial(_, message):
