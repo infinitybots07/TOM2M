@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                           InlineKeyboardButton('🇮🇳 ʜɪɴ', callback_data='hindi'),
                           InlineKeyboardButton('🇮🇳 ᴛᴀᴍ', callback_data='tamil')
                         ],[                         
-                          InlineKeyboardButton("b", url='t.me/CKTalkies')
+                          InlineKeyboardButton("🔋 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​ 🔋", url='t.me/CKTalkies')
                         ]]
                     )
                 )
