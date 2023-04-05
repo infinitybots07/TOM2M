@@ -774,9 +774,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     ]
                 )
             )
-            await asyncio.sleep(30)
+            await asyncio.sleep(600)
             await mh.delete()
-            await mh8.delete(15)   
+            await mh8.delete()   
             del mh, mh8
         except Exception as e:
             logger.exception(e, exc_info=True)
