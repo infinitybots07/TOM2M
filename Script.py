@@ -14,6 +14,9 @@ class script(object):
 <b>ʜᴇy {}
 
 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍy ᴄᴏᴍᴍᴀɴᴅꜱ.</b>"""
+    
+    SUPPORT_TXT = """
+add your text """
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
