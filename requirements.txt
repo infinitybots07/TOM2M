@@ -1,4 +1,4 @@
-pyrogram>=2.0.100
+pyrogram
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
@@ -12,5 +12,4 @@ pytz
 aiohttp
 python-dotenv
 psutil
-heroku3
 openai==0.25.0
