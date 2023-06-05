@@ -1,4 +1,4 @@
 <h1 align="center">
-  TOM-BOT
+  Group Manager
 </h1>
 
