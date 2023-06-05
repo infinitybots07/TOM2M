@@ -10,14 +10,14 @@ CMD = ["/", "."]
 
 @Client.on_message(filters.command("alive", CMD))
 async def check_alive(_, message):
-    myrr = await message.reply_sticker("CAACAgIAAxkBAAEIK1lkFAN0BjHbiwRY08v-7EFYRqI2fQACKRgAAhP_2UkVxgiD_rlLGS8E")
+    myrr = await message.reply_sticker("CAACAgEAAx0CarZSAAMZ_2R9icLTN5vSSFuCuYVDX4-Teq7bAAL6AQACjLEgRHhzeIjneBzEHgQ")
     andi = await message.reply_text("ʜᴇʏ ʙᴜᴅᴅʏ ɪ ᴀᴍ ᴀʟɪᴠᴇ 💃\n\nᴄʟɪᴄᴋ /start ꜰᴏʀ ᴍᴏʀᴇ​ 😻")
     await asyncio.sleep(DLT_TIME)
     await myrr.delete()
     await andi.delete()
     await message.delete()
     
-@Client.on_message(filters.command("tutorial", CMD))
+@Client.on_message(filters.command("swag", CMD))
 async def tutorial(_, message):
     await message.reply_text("😎")
 
