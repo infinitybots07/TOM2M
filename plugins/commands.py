@@ -801,3 +801,16 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'shortlink_api', api)
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>Successfully added shortlink API for {title}.\n\nCurrent Shortlink Website: <code>{shortlink_url}</code>\nCurrent API: <code>{api}</code></b>")
+    
+    #tutorial
+    
+@Client.on_message(filters.command("tutorial"))
+async def youtube_channel_msg(bot, message):
+
+    btn = [[
+        InlineKeyboardButton(text="❌ ᴄʟᴏsᴇ ❌", callback_data="close_data")
+    ]]
+    aks = await message.reply_photo(photo='https://graph.org/file/3c90871f707ba0cb3d21c.jpg', caption="<b>🍁 ᴛʜɪs ɪs ʜᴏᴡ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴍᴏᴠɪᴇs ғʀᴏᴍ ᴏᴜʀ ʙᴏᴛ. 🍁\nʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋs ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴡᴀᴛᴄʜ ᴛʜᴇ ᴛᴜᴛᴏʀɪᴀʟ.\n\nhttps://t.me/links_tutorialbypp/23</b>", reply_markup=InlineKeyboardMarkup(btn))
+    await asyncio.sleep(600)
+    await aks.delete()
+    await message.delete()
