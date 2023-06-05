@@ -18,7 +18,7 @@ async def check_alive(_, message):
     await message.delete()
     
 @Client.on_message(filters.command("swag", CMD))
-async def tutorial(_, message):
+async def swag(_, message):
     await message.reply_text("😎")
 
 @Client.on_message(filters.command("ping", CMD))
