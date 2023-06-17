@@ -490,7 +490,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("�ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ꜰʀᴏᴍ ʙᴏᴛ💢", url=f'https://t.me/links_tutorialbypp/23')
+        InlineKeyboardButton("🔺ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ꜰʀᴏᴍ ʙᴏᴛ🔺", url=f'https://t.me/links_tutorialbypp/23')
     ])
     offset = 0
 
@@ -1373,7 +1373,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('✧ ᴄᴏɴᴛᴀᴄᴛ​', url='t.me/af_x_su')
+            InlineKeyboardButton('✧ ᴄᴏɴᴛᴀᴄᴛ​', url='https://t.me/+lr58RNfe-TVhOGY1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
