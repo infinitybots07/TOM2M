@@ -1304,7 +1304,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(text=script.TAMIL_TXT, show_alert=True)
 
     elif query.data == "infinitybotz":
-        await query.answer("ᴡᴇ ᴀʀᴇ ɢᴏɪɴɢ ᴛᴏ ᴀᴅᴅ ᴛʜɪꜱ ғᴇᴀᴛᴜʀᴇ ꜱᴏᴏɴ", show_alert=True)
+        await query.answer(text=script.INFINITY_TXT, show_alert=True)
 
     elif query.data == "start":
         buttons = [[
