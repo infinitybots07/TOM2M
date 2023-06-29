@@ -154,7 +154,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ​', 'infinitybotz'),
+                    InlineKeyboardButton('ᴀʟʟ​', 'cyber'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -163,7 +163,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ​', 'infinitybotz'),
+                    InlineKeyboardButton('ᴀʟʟ​', 'cyber'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -176,7 +176,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ​', 'infinitybotz'),
+                    InlineKeyboardButton('ᴀʟʟ​', 'cyber'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -185,7 +185,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ', 'infinitybotz'),
+                    InlineKeyboardButton('ᴀʟʟ', 'cyber'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1294,6 +1294,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         await query.answer(text=script.HELP_TXT, show_alert=True)
      
+    elif query.data == "cyber":
+        await query.answer(text="Testing is most 🙈", show_alert=True)
+        
     elif query.data == "malayalam":
         await query.answer(text=script.MALAYALAM_TXT, show_alert=True)
 
@@ -1845,7 +1848,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1854,7 +1857,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1867,7 +1870,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1876,7 +1879,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
