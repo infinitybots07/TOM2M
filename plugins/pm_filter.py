@@ -1303,6 +1303,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tamil":
         await query.answer(text=script.TAMIL_TXT, show_alert=True)
 
+    elif query.data == "infinitybotz":
+        await query.answer("ᴡᴇ ᴀʀᴇ ɢᴏɪɴɢ ᴛᴏ ᴀᴅᴅ ᴛʜɪꜱ ғᴇᴀᴛᴜʀᴇ ꜱᴏᴏɴ", show_alert=True)
+
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
