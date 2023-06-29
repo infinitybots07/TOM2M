@@ -428,7 +428,8 @@ coммand and υѕeѕ
 """
     CLOSE_TXT = """
 <b>⚙️ {message.from_user.mention} Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️</b>"""
-    
+    INFINITY_TXT = """
+Wᴇ Wɪʟʟ Aᴅᴅ Tʜɪs Fᴇᴀᴛᴜʀᴇ Sᴏᴏɴ. ᴋᴇᴇᴘ Sᴜᴘᴘᴏʀᴛɪɴɢ ᴜs."""
     NOR_TXT = """
 <b>Hᴇʀᴇ Aʀᴇ Tʜᴇ Rᴇsᴜʟᴛs Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ :
 🔖Tɪᴛʟᴇ : {}
