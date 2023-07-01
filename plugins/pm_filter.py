@@ -1295,7 +1295,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(text=script.HELP_TXT, show_alert=True)
      
     elif query.data == "cyber":
-        await query.answer(text="Testing is most 🙈", show_alert=True)
+        await query.answer(text="This Feature Will Be Added Soon. keep Supporting Us", show_alert=True)
         
     elif query.data == "malayalam":
         await query.answer(text=script.MALAYALAM_TXT, show_alert=True)
