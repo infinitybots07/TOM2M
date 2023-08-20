@@ -154,7 +154,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ​', 'cyber'),
+                    InlineKeyboardButton('ᴀʟʟ​', 'infinity'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -163,7 +163,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ​', 'cyber'),
+                    InlineKeyboardButton('ᴀʟʟ​', 'infinity'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -176,7 +176,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ​', 'cyber'),
+                    InlineKeyboardButton('ᴀʟʟ​', 'infinity'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -185,7 +185,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('ᴀʟʟ', 'cyber'),
+                    InlineKeyboardButton('ᴀʟʟ', 'infinity'),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -280,7 +280,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton(f'🔍ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ꜰʀᴏᴍ ʙᴏᴛ🔎', url='https://t.me/links_tutorialbypp/23')
+        InlineKeyboardButton(f'🔍ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ꜰʀᴏᴍ ʙᴏᴛ🔎', url=H2W)
     ])
     try:
         await query.edit_message_reply_markup(
@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                           InlineKeyboardButton('🇮🇳 ʜɪɴ', callback_data='hindi'),
                           InlineKeyboardButton('🇮🇳 ᴛᴀᴍ', callback_data='tamil')
                         ],[                         
-                          InlineKeyboardButton("🔋 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​ 🔋", url='https://t.me/infinity_botz_pp')
+                          InlineKeyboardButton("🔋 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​ 🔋", url='https://t.me/infinity_botzz')
                         ]]
                     )
                 )
@@ -1294,7 +1294,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         await query.answer(text=script.HELP_TXT, show_alert=True)
      
-    elif query.data == "cyber":
+    elif query.data == "infinity":
         await query.answer(text="This Feature Will Be Added Soon. keep Supporting Us", show_alert=True)
         
     elif query.data == "malayalam":
@@ -1313,7 +1313,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌿sᴜᴘᴘᴏʀᴛ​', callback_data='af_x_su'),
+            InlineKeyboardButton('🌿sᴜᴘᴘᴏʀᴛ​', callback_data='infinity_botz'),
             InlineKeyboardButton('👨‍💻 ᴅᴇᴠ​', callback_data='owner_info')
             ],[      
             InlineKeyboardButton('🎭 ʜᴇʟᴘ 🎭', callback_data='help2'),
@@ -1349,7 +1349,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "af_x_su":
+    elif query.data == "infinity_botz":
         buttons = [[
             InlineKeyboardButton('ɢʀᴏᴜᴩ', url='https://t.me/+ZYPevL2d9k45ZDll'),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/hd_movies_hub01')
@@ -1379,7 +1379,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('✧ ᴄᴏɴᴛᴀᴄᴛ​', url='https://t.me/+lr58RNfe-TVhOGY1')
+            InlineKeyboardButton('✧ ᴄᴏɴᴛᴀᴄᴛ​', url='https://t.me/mpbotzsupport_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1394,7 +1394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "money_bot":
         buttons = [[
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/+lr58RNfe-TVhOGY1')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/mpbotzsupport_bot')
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')
@@ -1848,7 +1848,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="infinity"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1857,7 +1857,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="infinity"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1870,7 +1870,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="infinity"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1879,14 +1879,14 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data="cyber"),
+                    InlineKeyboardButton("ᴀʟʟ​", callback_data="infinity"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
             )
 
     btn.insert(0, [
-        InlineKeyboardButton(f'🔍ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ꜰʀᴏᴍ ʙᴏᴛ🔎', url='https://t.me/links_tutorialbypp/23')
+        InlineKeyboardButton(f'🔍ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ꜰʀᴏᴍ ʙᴏᴛ🔎', url=H2W)
     ])
    # await message.delete()
     #m=await message.reply_text("🔍") 
