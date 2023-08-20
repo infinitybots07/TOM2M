@@ -56,6 +56,10 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+95dUK9WcY95k
 HRK_APP_NAME = environ.get('HRK_APP_NAME', 'mybots')
 HRK_API = environ.get('HRK_API', '0')
 
+
+#h2w
+H2W = environ.get('H2W', 'https://t.me/links_tutorialbypp/23')
+
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
