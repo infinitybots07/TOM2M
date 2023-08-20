@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/infinity_botz_pp'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+TokhcdxpetNlZjA1')
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/infinity_botzz'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+EapqivvgHbc5YmY1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -46,7 +46,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌿sᴜᴘᴘᴏʀᴛ​', callback_data='af_x_su'),
+            InlineKeyboardButton('🌿sᴜᴘᴘᴏʀᴛ​', callback_data='infinity_botz'),
             InlineKeyboardButton('🧑‍💻 ᴅᴇᴠ​', callback_data='owner_info')
             ],[      
             InlineKeyboardButton('🎭 ʜᴇʟᴘ 🎭', callback_data='help2'),
@@ -72,7 +72,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌿sᴜᴘᴘᴏʀᴛ​', callback_data='af_x_su'),
+            InlineKeyboardButton('🌿sᴜᴘᴘᴏʀᴛ​', callback_data='infinity_botz'),
             InlineKeyboardButton('🧑‍💻 ᴅᴇᴠ​', callback_data='owner_info')
             ],[      
             InlineKeyboardButton('🎭 ʜᴇʟᴘ 🎭', callback_data='help2'),
