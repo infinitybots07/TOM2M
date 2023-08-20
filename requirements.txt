@@ -13,3 +13,4 @@ aiohttp
 python-dotenv
 psutil
 openai==0.25.0
+dnspython==2.3.0
