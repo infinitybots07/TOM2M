@@ -71,10 +71,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL', "-1001823305280")
+auth_channel = environ.get('AUTH_CHANNEL', "-1001950005931")
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1001921630453")
+REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1001950005931")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 group_sub = environ.get('GROUP_SUB')
@@ -94,14 +94,14 @@ NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001858701768').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
-S_GROUP = environ.get('S_GROUP',"https://t.me/+TokhcdxpetNlZjA1")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/hd_movies_hub01")
+S_GROUP = environ.get('S_GROUP',"https://t.me/+EapqivvgHbc5YmY1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/infinity_botzz")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+nF7KliSj3RFkMzY1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+6Xa6wSAXBYw5ZjM1')
-MSG_ALRT = environ.get('MSG_ALRT', 'Piracy Is Crime')
+MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001974968397'))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001809820921'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+TokhcdxpetNlZjA1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+qg5xJMeSQcFmZDk1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
